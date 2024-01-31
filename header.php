@@ -16,14 +16,14 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/companyLogo.svg" alt="" width="215" height="50" class="d-inline-block align-text-top">
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: #fff; width: 60px; display: flex; align-items: center; text-align: center; border: 1px solid #fff;">
+                <span class="navbar-toggler-icon mt-2" style="font-size: 14px;">Menu</span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" style="color: #fff" href="<?php echo esc_url(get_permalink(get_page_by_title('page-services'))); ?> role=" button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" style="color: #fff" href="<?php echo esc_url(get_permalink(get_page_by_title('page-services'))); ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu">

@@ -1,6 +1,7 @@
 <footer class="navbar navbar-dark bg-dark">
-    <div class="container">
+    <div class="container mt-3">
         <div class="row">
+            <hr style="color: rgba(255, 255, 255, 0.4);" />
             <!-- about company -->
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div>
@@ -15,7 +16,6 @@
                     </p>
                 </div>
             </div>
-
             <!-- links -->
             <div class="col-xl-2 col-lg-2 col-md-2">
                 <div class="">
@@ -36,6 +36,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-xl-2 col-lg-2 col-md-6">
                 <div>
                     <h6 class="text-light mb-5">Products</h6>
@@ -55,6 +56,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-xl-2 col-lg-2 col-md-6">
                 <div>
                     <h6 class="text-light mb-5">Resources</h6>
@@ -74,6 +76,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-xl-2 col-lg-2 col-md-6">
                 <div>
                     <h6 class="text-light mb-5">Address</h6>
@@ -90,6 +93,8 @@
                     </ul>
                 </div>
             </div>
+
+            <hr style="color: rgba(255, 255, 255, 0.4);" />
         </div>
 
         <!-- developer -->
@@ -105,8 +110,30 @@
 </footer>
 
 <?php wp_footer(); ?>
+
 <script>
 document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+
+//validate form inputs
+function validateAndSubmit() {
+    var form = document.getElementById('form-section');
+
+    if (!form.checkValidity()) {
+        form.classList.add('was-validated');
+        return;
+    }
+
+    form.classList.remove('was-validated');
+
+    scrollToFormSection();
+}
+
+//scroll to form
+function scrollToFormSection() {
+    document.getElementById('form-section').scrollIntoView({
+        behavior: 'smooth'
+    });
+}
 </script>
 
 </body>
