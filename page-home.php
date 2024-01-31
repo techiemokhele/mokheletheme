@@ -8,7 +8,8 @@ Template Name: Custom Home Template
 
 <main>
     <!-- image section -->
-    <div class="container-fluid" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/base.png'); background-size: cover; background-position: center; height: 55vh; display: flex; align-items: center; justify-content: center;">
+    <div class="container-fluid"
+        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/base.png'); background-size: cover; background-position: center; height: 55vh; display: flex; align-items: center; justify-content: center;">
         <div class="d-flex flex-column align-items-center text-center text-light" style="margin-bottom: 20px;">
             <h5>Welcome to</h5>
             <h1 class="my-4" style="color: #007bff;">Our Security is our Priority</h1>
@@ -46,42 +47,48 @@ Template Name: Custom Home Template
                     <!-- Product 1 -->
                     <div class="col">
                         <div class="card text-light text-center" style="background-color: #2F3B45; ">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p1.png" class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 1">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p1.png"
+                                class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 1">
                         </div>
                     </div>
 
                     <!-- Product 2 -->
                     <div class="col">
                         <div class="card text-light text-center" style="background-color: #2E556F; ">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p2.png" class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p2.png"
+                                class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 2">
                         </div>
                     </div>
 
                     <!-- Product 3 -->
                     <div class="col">
                         <div class="card text-light text-center" style="background-color: #2E556F; ">
-                            <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/products/p3.png" class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 3">
+                            <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/products/p3.png"
+                                class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 3">
                         </div>
                     </div>
 
                     <!-- Product 4 -->
                     <div class="col">
                         <div class="card text-light text-center" style="background-color: #2F3B45; ">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p4.png" class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 4">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p4.png"
+                                class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 4">
                         </div>
                     </div>
 
                     <!-- Product 5 -->
                     <div class="col">
                         <div class="card text-light text-center" style="background-color: #2F3B45; ">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p5.png" class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 5">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p5.png"
+                                class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 5">
                         </div>
                     </div>
 
                     <!-- Product 6 -->
                     <div class="col">
                         <div class="card text-light text-center" style="background-color: #2E556F; ">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p6.png" class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 6">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p6.png"
+                                class="card-img-top mx-auto my-3" style="height: 5vh" alt="Product 6">
                         </div>
                     </div>
 
@@ -97,8 +104,12 @@ Template Name: Custom Home Template
                 <div class="row row-cols-1 row-col-md-2 row-cols-lg-3 g-4">
                     <!-- service 1 -->
                     <div class="col">
-                        <div class="card text-light text-center" style="background: #2F3B45; transition: background 0.3s;" onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'" onmouseout="this.style.background='#2F3B45'">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png" class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
+                        <div class="card text-light text-center"
+                            style="background: #2F3B45; transition: background 0.3s;"
+                            onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'"
+                            onmouseout="this.style.background='#2F3B45'">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png"
+                                class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
                             <div class="card-body">
                                 <p class="card-title" style="font-size: 12px;">Cloud Security</p>
                                 <p class="card-text" style="font-size: 8px; color: rgba(255, 255, 255, 0.4);">Enim nec
@@ -110,8 +121,12 @@ Template Name: Custom Home Template
 
                     <!-- service 2 -->
                     <div class="col">
-                        <div class="card text-light text-center" style="background: #2F3B45; transition: background 0.3s;" onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'" onmouseout="this.style.background='#2F3B45'">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png" class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
+                        <div class="card text-light text-center"
+                            style="background: #2F3B45; transition: background 0.3s;"
+                            onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'"
+                            onmouseout="this.style.background='#2F3B45'">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png"
+                                class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
                             <div class="card-body">
                                 <p class="card-title" style="font-size: 12px;">Identity Management</p>
                                 <p class="card-text" style="font-size: 8px; color: rgba(255, 255, 255, 0.4);">Enim nec
@@ -123,8 +138,12 @@ Template Name: Custom Home Template
 
                     <!-- service 3 -->
                     <div class="col">
-                        <div class="card text-light text-center" style="background: #2F3B45; transition: background 0.3s;" onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'" onmouseout="this.style.background='#2F3B45'">
-                            <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png" class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
+                        <div class="card text-light text-center"
+                            style="background: #2F3B45; transition: background 0.3s;"
+                            onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'"
+                            onmouseout="this.style.background='#2F3B45'">
+                            <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png"
+                                class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
                             <div class="card-body">
                                 <p class="card-title" style="font-size: 12px;">Strong Authentication</p>
                                 <p class="card-text" style="font-size: 8px; color: rgba(255, 255, 255, 0.4);">Enim nec
@@ -136,8 +155,12 @@ Template Name: Custom Home Template
 
                     <!-- service 4 -->
                     <div class="col">
-                        <div class="card text-light text-center" style="background: #2F3B45; transition: background 0.3s;" onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'" onmouseout="this.style.background='#2F3B45'">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png" class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
+                        <div class="card text-light text-center"
+                            style="background: #2F3B45; transition: background 0.3s;"
+                            onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'"
+                            onmouseout="this.style.background='#2F3B45'">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png"
+                                class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
                             <div class="card-body">
                                 <p class="card-title" style="font-size: 12px;">Public Key Innfrastructure</p>
                                 <p class="card-text" style="font-size: 8px; color: rgba(255, 255, 255, 0.4);">Enim nec
@@ -149,8 +172,12 @@ Template Name: Custom Home Template
 
                     <!-- service 5 -->
                     <div class="col">
-                        <div class="card text-light text-center" style="background: #2F3B45; transition: background 0.3s;" onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'" onmouseout="this.style.background='#2F3B45'">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png" class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
+                        <div class="card text-light text-center"
+                            style="background: #2F3B45; transition: background 0.3s;"
+                            onmouseover="this.style.background='linear-gradient(135deg, #005A96, #359EBD)'"
+                            onmouseout="this.style.background='#2F3B45'">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/Icon.png"
+                                class="card-img-top mx-auto my-3" style="height: 20px; width: 20px;" alt="icon">
                             <div class="card-body">
                                 <p class="card-title" style="font-size: 12px;">Workshop and Training</p>
                                 <p class="card-text" style="font-size: 8px; color: rgba(255, 255, 255, 0.4);">Enim nec
@@ -168,7 +195,8 @@ Template Name: Custom Home Template
             <h5 class="text-center">OUR OFFICES</h5>
 
             <div class="container mx-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Frame.png" class="card-img-top mx-auto my-3 img-fluid" alt="location">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Frame.png"
+                    class="card-img-top mx-auto my-3 img-fluid" alt="location">
             </div>
         </div>
 
@@ -181,7 +209,8 @@ Template Name: Custom Home Template
                     <div class="row row-cols-1 row-cols-md-3 g-3 mx-1">
                         <!-- Column 1 -->
                         <div class="col">
-                            <div class="text-light d-flex flex-column" style="background: #1A7FA8; max-height: 40vh; overflow: hidden;">
+                            <div class="text-light d-flex flex-column"
+                                style="background: #1A7FA8; max-height: 40vh; overflow: hidden;">
                                 <div class="align-self-start p-3">
                                     <!-- align-self-start keeps the text at the start of the div -->
                                     <p class="card-title" style="font-size: 12px;">Introduction Heading - Our USP</p>
@@ -204,14 +233,17 @@ Template Name: Custom Home Template
 
                         <!-- Column 2 -->
                         <div class="col">
-                            <div class="text-light text-center d-flex align-items-center" style="background: #1A7FA8; height: 40vh">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/security.png" class="img-fluid" alt="icon">
+                            <div class="text-light text-center d-flex align-items-center"
+                                style="background: #1A7FA8; height: 40vh">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/security.png"
+                                    class="img-fluid" alt="icon">
                             </div>
                         </div>
 
                         <!-- Column 3 -->
                         <div class="col">
-                            <div class="text-light d-flex flex-column" style="background: #1A7FA8; max-height: 40vh; overflow: hidden;">
+                            <div class="text-light d-flex flex-column"
+                                style="background: #1A7FA8; max-height: 40vh; overflow: hidden;">
                                 <div class="align-self-start p-3">
                                     <!-- align-self-start keeps the text at the start of the div -->
                                     <p class="card-title" style="font-size: 12px;">Introduction Heading - Our USP</p>
@@ -249,35 +281,40 @@ Template Name: Custom Home Template
                     <!-- reseller 1 -->
                     <div class="col mb-3">
                         <div class="text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p9.png" class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 1">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p9.png"
+                                class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 1">
                         </div>
                     </div>
 
                     <!-- reseller 2 -->
                     <div class="col mb-3">
                         <div class="text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p7.png" class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p7.png"
+                                class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 2">
                         </div>
                     </div>
 
                     <!-- reseller 3 -->
                     <div class="col mb-3">
                         <div class="text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p9.png" class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 3">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p9.png"
+                                class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 3">
                         </div>
                     </div>
 
                     <!-- reseller 4 -->
                     <div class="col mb-3">
                         <div class="text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p8.png" class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 4">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p8.png"
+                                class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 4">
                         </div>
                     </div>
 
                     <!-- reseller 5 -->
                     <div class="col mb-3">
                         <div class="text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p9.png" class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 5">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/products/p9.png"
+                                class="card-img-top mx-auto" style="height: 3vh; width: 10vh" alt="reseller 5">
                         </div>
                     </div>
                 </div>
@@ -286,7 +323,9 @@ Template Name: Custom Home Template
             <div class="container mt-5 d-flex justify-content-center align-items-center">
                 <p class="m-0" style="font-size: 14px; color:#1A7FA8">Become a reseller of YubiKeys</p>
                 <a href="<?php echo esc_url(get_permalink(get_page_by_title('page-contact'))); ?>">
-                    <button type="button" class="btn btn-dark mx-5" style="width: 150px;">Contact us now</button>
+                    <button type="button" class="btn btn-dark mx-5"
+                        style="background: linear-gradient(180deg,#359EBD, #005A96); border-radius: 6px; color: white;">Contact
+                        us now</button>
                 </a>
             </div>
         </div>
