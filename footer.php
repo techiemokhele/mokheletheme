@@ -4,8 +4,9 @@
             <!-- about company -->
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/companyLogo.svg" alt="" width="215"
-                        height="48" class="d-inline-block align-text-top">
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_title('page-home'))); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/companyLogo.svg" alt="" width="215" height="48" class="d-inline-block align-text-top">
+                    </a>
                     <p class="mb-30 footer-desc text-light mt-3">
                         As Kernel Afrika, we are experts in cyber security, and through our association with global
                         partners,
@@ -104,7 +105,7 @@
 
 <?php wp_footer(); ?>
 <script>
-document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 </script>
 
 </body>
